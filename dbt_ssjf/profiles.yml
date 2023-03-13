@@ -1,0 +1,13 @@
+# example profiles.yml file
+dbt_ssjf:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: 59.111.227.199
+      user: postgres
+      password: easydata@123E
+      port: 5432
+      dbname: postgres
+      schema: dbt_ssjf
+      threads: 4
