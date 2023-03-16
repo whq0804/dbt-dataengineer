@@ -19,3 +19,4 @@ on t1.user_id =t2.userid
 
 )
 select * from dwd_feishu_remedys_1d
+

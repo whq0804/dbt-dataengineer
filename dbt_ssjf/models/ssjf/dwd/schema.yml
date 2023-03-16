@@ -2,6 +2,6 @@
 version: 2
 
 models:
-  - name: dwd_feishu_remedys
+  - name: dwd_feishu_remedys_1d
     description: "实施交付部的人员补卡记录明细"
    
