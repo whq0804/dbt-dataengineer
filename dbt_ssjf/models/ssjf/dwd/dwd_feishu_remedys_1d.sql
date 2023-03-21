@@ -14,7 +14,7 @@ with dwd_feishu_remedys_1d as
 t1.time_zone, t1.update_time, t1.user_id, t1.work_type
 ,t2.name,t2.email,t2.department,t2.leaderemployee
 FROM stg_feishu.stg_feishu_remedys t1
-inner join stg_feishu.stg_feishu_user t2
+inner join stg_easydo.usertaber t2
 on t1.user_id =t2.userid 
 
 )
